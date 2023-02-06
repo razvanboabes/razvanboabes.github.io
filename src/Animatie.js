@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-import {TweenMax, Power3, Expo, gsap} from 'gsap';
+import { Power3, Expo, gsap} from 'gsap';
 import anime from 'animejs/lib/anime.es.js';
 import "./Animatie.css"
-import HoverButton  from './Button';
 import { Link } from 'react-router-dom';
 
 
