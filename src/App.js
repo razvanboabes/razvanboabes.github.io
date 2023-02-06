@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-
+import "./logo.png";
 function App() {
   const [formData, setFormData] = useState({
     name: "",
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="./logo.png" alt="Logo" />
+      <img src={require("./logo.png")} alt="logo" name="logo" />
       <form onSubmit={handleSubmit}>
         <input
           type="text"
