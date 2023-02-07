@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import "./logo.png";
 import  Animatie  from "./Animatie";
 import  Form  from "./Form";
 function App() {
