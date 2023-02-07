@@ -9,6 +9,13 @@
     padding-top: 0px;
     height: 100vh;
 }
+.registration{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center ;
+}
 
 h2 {
     position: relative;
@@ -16,8 +23,7 @@ h2 {
       text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
       font-size: 50px; 
       font-variant-caps: all-small-caps;
-      text-align: left;
-      
+      text-align: left;   
       font-family: 'Oswald', sans-serif ;
       margin: 0px;
    }
