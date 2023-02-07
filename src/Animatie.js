@@ -100,7 +100,7 @@ const Animatie = () => {
 
   return (
     <div className="container">
-         <Link to="/app">
+         <Link to="/signup">
          <button className="hover-button"> Join Beta</button>
          </Link>
        
